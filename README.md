@@ -1,10 +1,8 @@
 # Webcam App
 
-App demonstrating ...
+Experimenting with filters using webcam and canvas.
 
 Live version: https://webcam-app.herokuapp.com/
-
-<img src="./src/graphics/screencast.gif" width="275px" height="auto">
 
 ## Tech stack
 * Node
