@@ -21,7 +21,7 @@ function getVideo() {
 
 function paintToCanvas() {
   const { videoWidth: width, videoHeight: height } = video;
-  console.log(width, height);
+  // console.log(width, height);
   [canvas.width, canvas.height] = [width, height];
 
   return setInterval(() => {
@@ -31,8 +31,18 @@ function paintToCanvas() {
 
 
 function takePhoto() {
+  // played the sound
   snap.currentTime = 0;
   snap.play();
+
+  // take the data out of the canvas
+  const data = canvas.toDataURL('image/jpeg');
+  const link = document.createElement('a');
+  link.href = data;
+  link.setAttribute('download', 'image');
+  link.textContent = 'Download image';
+  strip.insertBefore(link, strip.firstChild);
+
 }
 
 
