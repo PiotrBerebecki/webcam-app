@@ -2,7 +2,7 @@
 
 Experimenting with filters using webcam and canvas.
 
-Live version: https://webcam-app.herokuapp.com/
+Live version: https://webcam-app.herokuapp.com
 
 ## Tech stack
 * Node
@@ -10,7 +10,6 @@ Live version: https://webcam-app.herokuapp.com/
 * Heroku
 * Vanilla JavaScript
 * ES6
-* Flexbox
 
 ## Getting started
 
